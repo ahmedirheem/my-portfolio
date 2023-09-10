@@ -324,14 +324,14 @@ h3.my-profession .typing{
     max-width: 50%;
 }
 .about-content .info-item p{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
     padding: 10px 0
 }
 .about-content .info-item p span{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: var(--text-black-700);
     margin-left: 4px;
@@ -692,6 +692,15 @@ h3.my-profession .typing{
     .contact .contact-form .col-6,
     .portfolio .portfolio-item,
     .service .service-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (max-width: 520px) {
+    .about-content .personal-info .row:first-child{
+        flex-direction: column;
+    }
+    .about-content .personal-info .info-item {
         flex: 0 0 100%;
         max-width: 100%;
     }
