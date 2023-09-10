@@ -513,9 +513,6 @@ h3.my-profession .typing{
 /* === End Services === */
 
 /* Start Technologies */
-.technologies{
-    min-height: fit-content;
-}
 .technologies .technologies-item{
     border: 5px solid var(--skin-color);
     border-radius: 50%;
@@ -598,7 +595,10 @@ h3.my-profession .typing{
 
 /* === Start Contact === */
 .contact{
-    min-height: fit-content !important;
+    position: relative;
+    align-items: center;
+    min-height: fit-content;
+    padding-top: 20px;
 }
 .contact-title{
     color: var(--skin-color);
@@ -642,6 +642,19 @@ h3.my-profession .typing{
 }
 .contact-info-item a{
     text-decoration: underline;
+}
+.footer{
+    min-height: fit-content;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+.footer h3{
+    letter-spacing: 2px;
+
+}
+.footer span{
+    color: var(--skin-color);
 }
 /* === End Contact === */
 
