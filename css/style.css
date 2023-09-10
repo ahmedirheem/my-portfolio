@@ -651,7 +651,7 @@ h3.my-profession .typing{
 }
 .footer h3{
     letter-spacing: 2px;
-
+    color: var(--text-black-900);
 }
 .footer span{
     color: var(--skin-color);
