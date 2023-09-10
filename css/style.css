@@ -513,6 +513,9 @@ h3.my-profession .typing{
 /* === End Services === */
 
 /* Start Technologies */
+.technologies{
+    min-height: fit-content;
+}
 .technologies .technologies-item{
     border: 5px solid var(--skin-color);
     border-radius: 50%;
@@ -527,7 +530,11 @@ h3.my-profession .typing{
     width: 50px;
     height: 50px;
     object-fit: contain;
-    fill: var(--skin-color);
+    fill: var(--skin-color) !important;
+}
+
+.technologies .technologies-item svg path{
+    fill: var(--skin-color) !important;
 }
 /* End Technologies */
 
